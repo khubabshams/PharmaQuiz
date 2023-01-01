@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:gravity="center"
+    tools:context="com.apps.khubab.pharmaquiz.StartScreenActivity">
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_gravity="center"
+        android:layout_weight="2.6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_start_screen"
+        android:contentDescription="@string/app_name" />
+    <TextView
+        android:id="@+id/tv_start"
+        android:gravity="center"
+        style="@style/Base.TextAppearance.AppCompat.Medium.Inverse"
+        android:layout_weight=".4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="@string/start_text"/>
+</LinearLayout>
